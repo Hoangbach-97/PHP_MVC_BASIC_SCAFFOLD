@@ -3,7 +3,7 @@ Mục đích mô hình MVC: Giúp cho Project gọn, dễ chỉnh sửa và làm
 Chia ra làm 3 phần rõ ràng: 
 Views: Chứa phần hiển thị cho người dùng
 Models: Chứa các câu lệnh truy vấn CSDL
-Controls: Tức khi user tương tác thực hiện các thao tác click, xóa, chỉnh sửa comment thì Control có nhiệm vụ điều khiển mock DB từ Model=> Kết hợp với Views để render ra màn hình
+Controls: Tức khi user tương tác thực hiện các thao tác trang cần hiển thị Home/Products/News=>Phân tích URL => nhiệm vụ điều khiển  Model=> Kết hợp với Views để render ra màn hình cần 
 
 
 Process: User gõ url => file .htaccess -> tiến hành phân tích, cắt url->filter/trim->truy xuất vào controller nào, action nào 
